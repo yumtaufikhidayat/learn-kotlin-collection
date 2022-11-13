@@ -1,4 +1,4 @@
-package lists
+package list
 
 fun main() {
     println("Test list")
