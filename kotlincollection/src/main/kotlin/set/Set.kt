@@ -29,4 +29,5 @@ fun mutableSet() {
     println("Eko Cahyadi berada pada index ke-${mutableSet.indexOf(Person("Eko Cahyadi"))}")
     println("Jumlah data terkini pada mutable set: ${mutableSet.size}")
     println(mutableSet.contains(Person("Eko Cahyadi")))
+    println(mutableSet.equals(Person("Zharfan Wafiq")))
 }
