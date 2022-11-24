@@ -1,11 +1,11 @@
 package set
 
 fun main() {
-//    set()
+    immutableSet()
     mutableSet()
 }
 
-fun set() {
+fun immutableSet() {
     val set: Set<Person> = setOf(
         Person("Zharfan Wafiq"),
         Person("Taufik Hidayat"),
