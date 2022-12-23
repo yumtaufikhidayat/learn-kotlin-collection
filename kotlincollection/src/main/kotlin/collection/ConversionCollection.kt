@@ -1,4 +1,4 @@
-package main.kotlin.conversioncollection
+package main.kotlin.collection
 
 fun main() {
     conversionCollection()
