@@ -1,4 +1,4 @@
-package collection
+package main.kotlin.collection
 
 fun main() {
     displayCollection(listOf("Taufik Hidayat", "25", "Medan"))
@@ -17,6 +17,6 @@ fun <T> displayCollection(collection: Collection<T>) {
 }
 
 fun <T> displayMutableCollection(collection: MutableCollection<T>) {
-    for(item in collection) println(item)
+    for (item in collection) println(item)
 }
 

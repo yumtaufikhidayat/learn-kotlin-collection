@@ -5,7 +5,7 @@ class Person(val name: String) {
         return name.hashCode()
     }
 
-    override fun equals(other: Any?): Boolean = when(other) {
+    override fun equals(other: Any?): Boolean = when (other) {
         is Person -> name == other.name
         else -> false
     }
