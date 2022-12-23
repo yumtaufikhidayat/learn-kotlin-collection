@@ -5,21 +5,21 @@ fun main() {
 }
 
 fun collectionOperations() {
-//  Modern approach
+//  Modern approach of for loop
     listOf("Taufik", "Hidayat").forEach { value -> println(value) }
 
-//  Traditional approach
+//  Traditional approach of for loop
     val data = listOf("Taufik", "Hidayat")
     for (i in data) {
         println(i)
     }
 
-//  Modern approach
+//  Modern approach of for loop with index
     listOf("Taufik", "Hidayat", "Zharfan", "Wafiq").forEachIndexed { index, value ->
         println("$index = $value")
     }
 
-//  Traditional approach
+//  Traditional approach of for loop with index
     val dataIndex = listOf("Taufik", "Hidayat", "Zharfan", "Wafiq")
     for ((index, value) in dataIndex.withIndex()) {
         println("$index = $value")
