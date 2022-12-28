@@ -2,7 +2,7 @@ package main.kotlin.transformations
 
 fun main() {
     transformationsMapping()
-    transformationsMappingMap()
+//    transformationsMappingMap()
 }
 
 fun transformationsMapping() {
@@ -20,9 +20,19 @@ fun transformationsMapping() {
         if (value == "Taufik") value else null
     }
 
+    val transformsList4 = list.mapIndexed { index, item ->
+        "Index ke-$index = $item"
+    }
+
+    val transformsList5 = list.mapIndexedNotNull { index, value ->
+        if (value == "Taufik") "$value berada pada index ke-$index" else null
+    }
+
     println(transformsList1)
     println(transformsList2)
     println(transformsList3)
+    println(transformsList4)
+    println(transformsList5)
 }
 
 fun transformationsMappingMap() {
