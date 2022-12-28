@@ -2,7 +2,7 @@ package main.kotlin.transformations
 
 fun main() {
     transformationsMapping()
-//    transformationsMappingMap()
+    transformationsMappingMap()
 }
 
 fun transformationsMapping() {
