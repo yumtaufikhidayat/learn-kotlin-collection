@@ -13,7 +13,7 @@ fun transformationsFlattening() {
     val flattenList: List<String> = list.flatten()
     println(flattenList)
     flattenList.forEachIndexed { index, s ->
-        println("index: $index = $s")
+        println("index ke-$index adalah $s")
     }
 }
 
