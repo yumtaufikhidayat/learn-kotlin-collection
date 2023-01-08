@@ -25,6 +25,6 @@ fun memberHobbies() {
         Member("Zharfan Wafiq", listOf("Working", "Studying"))
     )
 
-    val hobbies: List<String> = members.flatMap { member -> member.hobbies }
+    val hobbies: List<String> = members.flatMap { it.hobbies }
     println("hobbies: $hobbies")
 }
