@@ -12,6 +12,9 @@ fun transformationsFlattening() {
     )
     val flattenList: List<String> = list.flatten()
     println(flattenList)
+    flattenList.forEachIndexed { index, s ->
+        println("index: $index = $s")
+    }
 }
 
 class Member(val name: String, val hobbies: List<String>)
