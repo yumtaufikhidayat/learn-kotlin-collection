@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement plus minus operators.">
-      <change afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/grouping/Grouping.kt" afterDir="false" />
-    </list>
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement slice." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +31,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="learn-grouping" />
-                    <option name="lastUsedInstant" value="1674964692" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1674993563" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1674964462" />
+                    <option name="branchName" value="learn-slicing" />
+                    <option name="lastUsedInstant" value="1674993350" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-grouping" />
+                    <option name="lastUsedInstant" value="1674964692" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-plus-minus-operators" />
@@ -47,10 +49,6 @@
                   <RecentBranch>
                     <option name="branchName" value="learn-testing" />
                     <option name="lastUsedInstant" value="1674874408" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-partitioning" />
-                    <option name="lastUsedInstant" value="1674863463" />
                   </RecentBranch>
                 </list>
               </option>
@@ -85,16 +83,9 @@
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.GroupingKt">
+  <component name="RunManager" selected="Kotlin.TakeDropKt">
     <configuration name="GroupingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.kotlin.grouping.GroupingKt" />
-      <module name="learn-kotlin-collection" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PartitioningKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.filter.PartitioningKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,6 +98,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SliceOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.SliceOperatorKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TakeDropKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.TakeDropKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.kotlin.filter.TestingKt" />
       <module name="learn-kotlin-collection" />
@@ -114,20 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransformationsZippingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.transformations.TransformationsZippingKt" />
-      <module name="learn-kotlin-collection" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TakeDropKt" />
+        <item itemvalue="Kotlin.SliceOperatorKt" />
         <item itemvalue="Kotlin.GroupingKt" />
         <item itemvalue="Kotlin.PlusMinusOperatorsKt" />
         <item itemvalue="Kotlin.TestingKt" />
-        <item itemvalue="Kotlin.PartitioningKt" />
-        <item itemvalue="Kotlin.TransformationsZippingKt" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +362,49 @@
       <option name="project" value="LOCAL" />
       <updated>1674964492916</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Implement grouping.">
+      <created>1674965047234</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1674965047234</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Implement grouping.">
+      <created>1674965055094</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1674965055094</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Implement grouping.">
+      <created>1674993340813</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1674993340813</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Implement slice.">
+      <created>1674993525348</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1674993525348</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Implement slice.">
+      <created>1674993537146</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1674993537146</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Implement slice.">
+      <created>1674993543130</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1674993543130</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,6 +432,8 @@
     <MESSAGE value="Implement partitioning." />
     <MESSAGE value="Implement testing." />
     <MESSAGE value="Implement plus minus operators." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement plus minus operators." />
+    <MESSAGE value="Implement grouping." />
+    <MESSAGE value="Implement slice." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement slice." />
   </component>
 </project>
