@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement testing.">
-      <change afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/operators/PlusMinusOperators.kt" afterDir="false" />
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement plus minus operators.">
+      <change afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/grouping/Grouping.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +33,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="learn-plus-minus-operators" />
-                    <option name="lastUsedInstant" value="1674963966" />
+                    <option name="branchName" value="learn-grouping" />
+                    <option name="lastUsedInstant" value="1674964692" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1674874598" />
+                    <option name="lastUsedInstant" value="1674964462" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-plus-minus-operators" />
+                    <option name="lastUsedInstant" value="1674963966" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-testing" />
@@ -47,10 +51,6 @@
                   <RecentBranch>
                     <option name="branchName" value="learn-partitioning" />
                     <option name="lastUsedInstant" value="1674863463" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-transformation-zipping" />
-                    <option name="lastUsedInstant" value="1672279058" />
                   </RecentBranch>
                 </list>
               </option>
@@ -85,7 +85,14 @@
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PlusMinusOperatorsKt">
+  <component name="RunManager" selected="Kotlin.GroupingKt">
+    <configuration name="GroupingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.grouping.GroupingKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PartitioningKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.kotlin.filter.PartitioningKt" />
       <module name="learn-kotlin-collection" />
@@ -107,13 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransformationsMappingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.transformations.TransformationsMappingKt" />
-      <module name="learn-kotlin-collection" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TransformationsZippingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.kotlin.transformations.TransformationsZippingKt" />
       <module name="learn-kotlin-collection" />
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.GroupingKt" />
         <item itemvalue="Kotlin.PlusMinusOperatorsKt" />
         <item itemvalue="Kotlin.TestingKt" />
         <item itemvalue="Kotlin.PartitioningKt" />
         <item itemvalue="Kotlin.TransformationsZippingKt" />
-        <item itemvalue="Kotlin.TransformationsMappingKt" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674874642541</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Implement plus minus operators.">
+      <created>1674964449528</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1674964449528</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Implement plus minus operators.">
+      <created>1674964492916</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1674964492916</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -377,6 +391,7 @@
     <MESSAGE value="Implement transformations zipping and transformations unzipping." />
     <MESSAGE value="Implement partitioning." />
     <MESSAGE value="Implement testing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement testing." />
+    <MESSAGE value="Implement plus minus operators." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement plus minus operators." />
   </component>
 </project>
