@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement transformations zipping and transformations unzipping.">
-      <change afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/filter/Partitioning.kt" afterDir="false" />
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement testing.">
+      <change afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/operators/PlusMinusOperators.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -33,24 +33,24 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="learn-plus-minus-operators" />
+                    <option name="lastUsedInstant" value="1674963966" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1672280076" />
+                    <option name="lastUsedInstant" value="1674874598" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-testing" />
+                    <option name="lastUsedInstant" value="1674874408" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-partitioning" />
+                    <option name="lastUsedInstant" value="1674863463" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-transformation-zipping" />
                     <option name="lastUsedInstant" value="1672279058" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-transformation-mapping" />
-                    <option name="lastUsedInstant" value="1672218017" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-collection-operations" />
-                    <option name="lastUsedInstant" value="1671786260" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-collection" />
-                    <option name="lastUsedInstant" value="1671786257" />
                   </RecentBranch>
                 </list>
               </option>
@@ -85,14 +85,7 @@
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PartitioningKt">
-    <configuration name="CollectionOperationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.collection.CollectionOperationsKt" />
-      <module name="learn-kotlin-collection" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.PlusMinusOperatorsKt">
     <configuration name="PartitioningKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.kotlin.filter.PartitioningKt" />
       <module name="learn-kotlin-collection" />
@@ -100,8 +93,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.collection.TesKt" />
+    <configuration name="PlusMinusOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.PlusMinusOperatorsKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.filter.TestingKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PlusMinusOperatorsKt" />
+        <item itemvalue="Kotlin.TestingKt" />
         <item itemvalue="Kotlin.PartitioningKt" />
         <item itemvalue="Kotlin.TransformationsZippingKt" />
         <item itemvalue="Kotlin.TransformationsMappingKt" />
-        <item itemvalue="Kotlin.CollectionOperationsKt" />
-        <item itemvalue="Kotlin.TesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +280,77 @@
       <option name="project" value="LOCAL" />
       <updated>1672280046149</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Implement partitioning.">
+      <created>1674863391157</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1674863391157</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Implement partitioning.">
+      <created>1674863427828</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1674863427828</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Implement partitioning.">
+      <created>1674863435643</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1674863435643</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Implement partitioning.">
+      <created>1674863548195</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1674863548195</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Implement partitioning.">
+      <created>1674874389956</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1674874389956</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Implement testing.">
+      <created>1674874576279</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1674874576279</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Implement testing.">
+      <created>1674874583822</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1674874583822</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Implement testing.">
+      <created>1674874628582</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1674874628582</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Implement testing.">
+      <created>1674874636741</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1674874636741</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Implement testing.">
+      <created>1674874642541</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1674874642541</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,6 +375,8 @@
     <MESSAGE value="Implement transformations mapping with index." />
     <MESSAGE value="Implement transformations mapping for map." />
     <MESSAGE value="Implement transformations zipping and transformations unzipping." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement transformations zipping and transformations unzipping." />
+    <MESSAGE value="Implement partitioning." />
+    <MESSAGE value="Implement testing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement testing." />
   </component>
 </project>
