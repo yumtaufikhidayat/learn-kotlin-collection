@@ -1,4 +1,4 @@
-package filter
+package main.kotlin.filter
 
 fun main() {
     filtering()
