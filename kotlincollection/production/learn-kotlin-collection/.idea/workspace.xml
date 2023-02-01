@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement take and drop.">
-      <change beforePath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/filter/Partitioning.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/filter/Partitioning.kt" afterDir="false" />
-    </list>
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement testing." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +31,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="learn-partitioning" />
-                    <option name="lastUsedInstant" value="1675080059" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1675081280" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1675035794" />
+                    <option name="branchName" value="learn-partitioning" />
+                    <option name="lastUsedInstant" value="1675080059" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-take-drop" />
@@ -77,7 +75,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -85,14 +83,7 @@
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PartitioningKt">
-    <configuration name="GroupingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.grouping.GroupingKt" />
-      <module name="learn-kotlin-collection" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.PlusMinusOperatorsKt">
     <configuration name="PartitioningKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.kotlin.filter.PartitioningKt" />
       <module name="learn-kotlin-collection" />
@@ -121,13 +112,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.filter.TestingKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PlusMinusOperatorsKt" />
+        <item itemvalue="Kotlin.TestingKt" />
         <item itemvalue="Kotlin.PartitioningKt" />
         <item itemvalue="Kotlin.TakeDropKt" />
         <item itemvalue="Kotlin.SliceOperatorKt" />
-        <item itemvalue="Kotlin.GroupingKt" />
-        <item itemvalue="Kotlin.PlusMinusOperatorsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +418,56 @@
       <option name="project" value="LOCAL" />
       <updated>1675035778557</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Implement partitioning.">
+      <created>1675081243232</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1675081243232</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Implement partitioning.">
+      <created>1675081257245</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1675081257245</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Fix package location.">
+      <created>1675082255094</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1675082255094</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Implement testing.">
+      <created>1675083055109</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1675083055109</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Implement testing.">
+      <created>1675083072659</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1675083072659</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Implement testing.">
+      <created>1675083409761</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1675083409761</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Implement testing.">
+      <created>1675083446512</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1675083446512</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -445,12 +492,13 @@
     <MESSAGE value="Implement transformations mapping with index." />
     <MESSAGE value="Implement transformations mapping for map." />
     <MESSAGE value="Implement transformations zipping and transformations unzipping." />
-    <MESSAGE value="Implement partitioning." />
-    <MESSAGE value="Implement testing." />
     <MESSAGE value="Implement plus minus operators." />
     <MESSAGE value="Implement grouping." />
     <MESSAGE value="Implement slice." />
     <MESSAGE value="Implement take and drop." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement take and drop." />
+    <MESSAGE value="Implement partitioning." />
+    <MESSAGE value="Fix package location." />
+    <MESSAGE value="Implement testing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement testing." />
   </component>
 </project>
