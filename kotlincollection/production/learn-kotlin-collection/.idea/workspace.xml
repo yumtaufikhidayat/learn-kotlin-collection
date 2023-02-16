@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement retrieve by position.">
-      <change beforePath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/positions/RetrieveByPosition.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/positions/RetrieveByPosition.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/positions/RetrieveByCondition.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/uiDesigner.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -38,8 +48,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="learn-retrieve-by-condition" />
+                    <option name="lastUsedInstant" value="1676551391" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1676070510" />
+                    <option name="lastUsedInstant" value="1676550213" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-retrieve-by-position" />
+                    <option name="lastUsedInstant" value="1676550071" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-windowed" />
@@ -48,14 +66,6 @@
                   <RecentBranch>
                     <option name="branchName" value="learn-chunked" />
                     <option name="lastUsedInstant" value="1676067688" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-partitioning" />
-                    <option name="lastUsedInstant" value="1675080059" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-take-drop" />
-                    <option name="lastUsedInstant" value="1675035518" />
                   </RecentBranch>
                 </list>
               </option>
@@ -73,25 +83,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/binar-taufik/Documents/VersionControl/github/learn-kotlin-collection&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/binar-taufik/Documents/VersionControl/github/learn-kotlin-collection",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/operators" />
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.RetrieveByPositionKt">
+  <component name="RunManager" selected="Kotlin.RetrieveByConditionKt">
     <configuration name="ChunkedOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.ChunkedOperatorKt" />
       <module name="learn-kotlin-collection" />
@@ -99,15 +109,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RetrieveByPositionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.positions.RetrieveByPositionKt" />
+    <configuration name="RetrieveByConditionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.positions.RetrieveByConditionKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SliceOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.SliceOperatorKt" />
+    <configuration name="RetrieveByPositionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.positions.RetrieveByPositionKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.RetrieveByConditionKt" />
         <item itemvalue="Kotlin.RetrieveByPositionKt" />
         <item itemvalue="Kotlin.WindowedOperatorKt" />
         <item itemvalue="Kotlin.ChunkedOperatorKt" />
         <item itemvalue="Kotlin.TakeDropOperatorKt" />
-        <item itemvalue="Kotlin.SliceOperatorKt" />
       </list>
     </recent_temporary>
   </component>
@@ -145,13 +155,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671776224907</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Update project.">
-      <created>1672216675982</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1672216675982</updated>
     </task>
     <task id="LOCAL-00014" summary="Implement transformations mapping.">
       <created>1672217327981</created>
@@ -489,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676198798165</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Implement retrieve by position.">
+      <created>1676550204877</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1676550204879</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
