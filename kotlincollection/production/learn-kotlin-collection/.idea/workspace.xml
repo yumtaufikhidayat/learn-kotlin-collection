@@ -4,79 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement grouping operators.">
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.gradle/7.4.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.gradle/7.4.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.gradle/7.4.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.gradle/7.4.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/classes/kotlin/main/META-INF/kotlincollection.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/counters.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/local-state/build-history.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/kotlincollection10SNAPSHOTjar-classes.txt" beforeDir="false" />
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement retrieve by position.">
+      <change beforePath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/positions/RetrieveByPosition.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/positions/RetrieveByPosition.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -105,7 +39,15 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1675081280" />
+                    <option name="lastUsedInstant" value="1676070510" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-windowed" />
+                    <option name="lastUsedInstant" value="1676070126" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-chunked" />
+                    <option name="lastUsedInstant" value="1676067688" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-partitioning" />
@@ -114,14 +56,6 @@
                   <RecentBranch>
                     <option name="branchName" value="learn-take-drop" />
                     <option name="lastUsedInstant" value="1675035518" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-slicing" />
-                    <option name="lastUsedInstant" value="1674993350" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-grouping" />
-                    <option name="lastUsedInstant" value="1674964692" />
                   </RecentBranch>
                 </list>
               </option>
@@ -157,23 +91,16 @@
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SliceOperatorKt">
-    <configuration name="GroupingOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.GroupingOperatorsKt" />
+  <component name="RunManager" selected="Kotlin.RetrieveByPositionKt">
+    <configuration name="ChunkedOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.ChunkedOperatorKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitioningKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.filter.PartitioningKt" />
-      <module name="learn-kotlin-collection" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlusMinusOperatorsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.PlusMinusOperatorsKt" />
+    <configuration name="RetrieveByPositionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.positions.RetrieveByPositionKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,8 +113,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.filter.TestingKt" />
+    <configuration name="TakeDropOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.TakeDropOperatorKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowedOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.WindowedOperatorKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.RetrieveByPositionKt" />
+        <item itemvalue="Kotlin.WindowedOperatorKt" />
+        <item itemvalue="Kotlin.ChunkedOperatorKt" />
+        <item itemvalue="Kotlin.TakeDropOperatorKt" />
         <item itemvalue="Kotlin.SliceOperatorKt" />
-        <item itemvalue="Kotlin.GroupingOperatorsKt" />
-        <item itemvalue="Kotlin.PlusMinusOperatorsKt" />
-        <item itemvalue="Kotlin.TestingKt" />
-        <item itemvalue="Kotlin.PartitioningKt" />
       </list>
     </recent_temporary>
   </component>
@@ -211,76 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671776224907</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Implement conversion collection.">
-      <created>1671780737875</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1671780737875</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Move conversion collection file.">
-      <created>1671780967172</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1671780967172</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Move conversion collection file.">
-      <created>1671780991102</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1671780991102</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Implement collection operations.">
-      <created>1671781546367</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1671781546367</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Implement collection operations.">
-      <created>1671781553428</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1671781553428</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Implement collection operations.">
-      <created>1671782984969</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1671782984969</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Implement collection operations.">
-      <created>1671783266728</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1671783266728</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Implement collection operations.">
-      <created>1671784671589</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1671784671589</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Update comment for collection operations.">
-      <created>1671786326700</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1671786326700</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Update project.">
-      <created>1672216667176</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1672216667176</updated>
     </task>
     <task id="LOCAL-00013" summary="Update project.">
       <created>1672216675982</created>
@@ -555,7 +419,77 @@
       <option name="project" value="LOCAL" />
       <updated>1675256032245</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Implement slicing.">
+      <created>1676030943741</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1676030943743</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Implement take and drop.">
+      <created>1676032598326</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1676032598326</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Implement chunked.">
+      <created>1676069885943</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1676069885943</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Implement chunked.">
+      <created>1676069918365</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1676069918365</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Implement windowed.">
+      <created>1676070494454</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1676070494454</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Rename some classes.">
+      <created>1676070565546</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1676070565546</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Implement chuncked.">
+      <created>1676078925471</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1676078925471</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Implement retrieve by position.">
+      <created>1676198594864</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1676198594864</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Implement retrieve by position.">
+      <created>1676198598718</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1676198598718</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Implement retrieve by position.">
+      <created>1676198798165</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1676198798165</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -582,12 +516,18 @@
     <MESSAGE value="Implement transformations zipping and transformations unzipping." />
     <MESSAGE value="Implement grouping." />
     <MESSAGE value="Implement slice." />
-    <MESSAGE value="Implement take and drop." />
     <MESSAGE value="Implement partitioning." />
     <MESSAGE value="Fix package location." />
     <MESSAGE value="Implement testing." />
     <MESSAGE value="Implement plus minus operators." />
     <MESSAGE value="Implement grouping operators." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement grouping operators." />
+    <MESSAGE value="Implement slicing." />
+    <MESSAGE value="Implement take and drop." />
+    <MESSAGE value="Implement chunked." />
+    <MESSAGE value="Implement windowed." />
+    <MESSAGE value="Rename some classes." />
+    <MESSAGE value="Implement chuncked." />
+    <MESSAGE value="Implement retrieve by position." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement retrieve by position." />
   </component>
 </project>
