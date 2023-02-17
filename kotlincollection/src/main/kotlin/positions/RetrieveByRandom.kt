@@ -10,4 +10,5 @@ fun retrieveByRandom() {
     println(list.random())
     println(list.random())
     println(list.random())
+    println(list.random())
 }
