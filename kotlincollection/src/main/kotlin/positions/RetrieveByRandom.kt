@@ -15,7 +15,7 @@ fun retrieveByRandom() {
 }
 
 fun retrieveStringByRandom() {
-    val data = listOf("Zharfan", "Wafiq", "Taufik", "hidayat")
+    val data = listOf("Zharfan", "Wafiq", "Taufik", "Hidayat")
     println(data.random())
     println(data.random())
 }
