@@ -2,6 +2,7 @@ package main.kotlin.positions
 
 fun main() {
     retrieveByRandom()
+    retrieveStringByRandom()
 }
 
 fun retrieveByRandom() {
@@ -11,4 +12,10 @@ fun retrieveByRandom() {
     println(list.random())
     println(list.random())
     println(list.random())
+}
+
+fun retrieveStringByRandom() {
+    val data = listOf("Zharfan", "Wafiq", "Taufik", "hidayat")
+    println(data.random())
+    println(data.random())
 }
