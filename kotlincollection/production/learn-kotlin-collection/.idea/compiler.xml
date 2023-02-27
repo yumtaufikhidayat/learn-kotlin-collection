@@ -12,6 +12,7 @@
       <entry name="!?*.clj" />
       <entry name="!?*.aj" />
       <entry name="!?*.len" />
+      <entry name="!?*.lock" />
     </wildcardResourcePatterns>
   </component>
 </project>
