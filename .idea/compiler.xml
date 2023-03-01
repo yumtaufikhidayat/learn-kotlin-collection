@@ -16,6 +16,10 @@
       <entry name="!?*.properties" />
       <entry name="!?*.MF" />
       <entry name="!?*.bin" />
+      <entry name="!?*.bat" />
+      <entry name="!?*.kts" />
+      <entry name="!?*.gitignore" />
+      <entry name="!?*.md" />
     </wildcardResourcePatterns>
   </component>
 </project>

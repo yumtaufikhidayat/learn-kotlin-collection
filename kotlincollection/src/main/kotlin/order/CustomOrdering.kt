@@ -7,7 +7,8 @@ fun main() {
 fun customOrdering() {
     val fruits = listOf(
         Fruit("Apple", 20),
-        Fruit("Banana", 15)
+        Fruit("Banana", 15),
+        Fruit("Anggur", 5)
     )
 
     println("Sorted by name: ${fruits.sortedBy { it.name }}")
