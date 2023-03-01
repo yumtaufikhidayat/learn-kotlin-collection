@@ -1,4 +1,4 @@
-package order
+package main.kotlin.order
 
 fun main() {
     naturalOrdering()
