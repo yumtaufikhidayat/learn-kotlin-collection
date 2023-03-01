@@ -13,6 +13,9 @@
       <entry name="!?*.aj" />
       <entry name="!?*.len" />
       <entry name="!?*.lock" />
+      <entry name="!?*.properties" />
+      <entry name="!?*.MF" />
+      <entry name="!?*.bin" />
     </wildcardResourcePatterns>
   </component>
 </project>
