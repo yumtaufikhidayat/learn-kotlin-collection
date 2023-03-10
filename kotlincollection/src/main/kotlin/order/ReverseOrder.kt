@@ -9,6 +9,7 @@ fun reverseOrder() {
     val listReversed = list.reversed()
     val listAsReversed = list.asReversed()
     list.add("Developer")
+    list.add("Android")
     println("Reversed: $listReversed")
     println("As Reversed: $listAsReversed")
 }
