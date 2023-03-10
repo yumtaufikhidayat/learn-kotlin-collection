@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement natural ordering and custom ordering." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1677635815" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-ordering-natural" />
+                    <option name="lastUsedInstant" value="1677635781" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-ordering-custom" />
+                    <option name="lastUsedInstant" value="1677634582" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-checking-existence" />
+                    <option name="lastUsedInstant" value="1677500348" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-retrieve-by-random" />
+                    <option name="lastUsedInstant" value="1677500039" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JIr1gbAU5ETz26AWGZBR18tnPw" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/binar-taufik/Documents/VersionControl/github/learn-kotlin-collection&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/operators" />
+      <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/collection" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.ReverseOrderKt">
+    <configuration name="CustomOrderingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.order.CustomOrderingKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NaturalOrderingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.order.NaturalOrderingKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseOrderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.order.ReverseOrderKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TakeDropOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.TakeDropOperatorKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WindowedOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.WindowedOperatorKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.ReverseOrderKt" />
+        <item itemvalue="Kotlin.CustomOrderingKt" />
+        <item itemvalue="Kotlin.NaturalOrderingKt" />
+        <item itemvalue="Kotlin.WindowedOperatorKt" />
+        <item itemvalue="Kotlin.TakeDropOperatorKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="" />
+      <created>1671776224907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671776224907</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Implement slice.">
+      <created>1674993525348</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1674993525348</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Implement slice.">
+      <created>1674993537146</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1674993537146</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Implement slice.">
+      <created>1674993543130</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1674993543130</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Implement take and drop.">
+      <created>1675035759911</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1675035759912</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Implement take and drop.">
+      <created>1675035778557</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1675035778557</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Implement partitioning.">
+      <created>1675081243232</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1675081243232</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Implement partitioning.">
+      <created>1675081257245</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1675081257245</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Fix package location.">
+      <created>1675082255094</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1675082255094</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Implement testing.">
+      <created>1675083055109</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1675083055109</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Implement testing.">
+      <created>1675083072659</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1675083072659</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Implement testing.">
+      <created>1675083409761</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1675083409761</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Implement testing.">
+      <created>1675083446512</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1675083446512</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Implement plus minus operators.">
+      <created>1675254014807</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1675254014807</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Implement plus minus operators.">
+      <created>1675254049949</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1675254049949</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Implement grouping operators.">
+      <created>1675256020172</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1675256020185</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Implement grouping operators.">
+      <created>1675256032243</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1675256032245</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Implement slicing.">
+      <created>1676030943741</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1676030943743</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Implement take and drop.">
+      <created>1676032598326</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1676032598326</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Implement chunked.">
+      <created>1676069885943</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1676069885943</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Implement chunked.">
+      <created>1676069918365</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1676069918365</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Implement windowed.">
+      <created>1676070494454</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1676070494454</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Rename some classes.">
+      <created>1676070565546</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1676070565546</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Implement chuncked.">
+      <created>1676078925471</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1676078925471</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Implement retrieve by position.">
+      <created>1676198594864</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1676198594864</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Implement retrieve by position.">
+      <created>1676198598718</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1676198598718</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Implement retrieve by position.">
+      <created>1676198798165</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1676198798165</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Implement retrieve by position.">
+      <created>1676550204877</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1676550204879</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Implement retrieve by condition.">
+      <created>1676552452063</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1676552452064</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Implement retrieve by condition.">
+      <created>1676552479560</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1676552479560</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Implement retrieve by condition.">
+      <created>1676552890022</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1676552890022</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Implement retrieve by condition.">
+      <created>1676552965598</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1676552965598</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Implement retrieve by position.">
+      <created>1676586411729</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1676586411729</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Implement retrieve by position.">
+      <created>1676586422050</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1676586422050</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Implement retrieve by position.">
+      <created>1676586428669</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1676586428669</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Implement retrieve by random.">
+      <created>1676677089122</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1676677089122</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Implement retrieve by random.">
+      <created>1676677110798</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1676677110798</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Implement retrieve by random.">
+      <created>1676677121464</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1676677121464</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Implement retrieve by random.">
+      <created>1676677130240</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1676677130240</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Implement retrieve by random.">
+      <created>1676677148930</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1676677148930</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Implement retrieve by random.">
+      <created>1677499987560</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1677499987561</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Implement retrieve by random.">
+      <created>1677499993965</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1677499993965</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Implement checking existence.">
+      <created>1677500860809</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1677500860810</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Implement checking existence.">
+      <created>1677541030587</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1677541030588</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Rename placement package.">
+      <created>1677634534401</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1677634534402</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Implement custom ordering.">
+      <created>1677635215859</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1677635215859</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Implement custom ordering.">
+      <created>1677635538068</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1677635538068</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Implement natural ordering.">
+      <created>1677635740978</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1677635740978</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Implement natural ordering.">
+      <created>1677635862068</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1677635862068</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Implement natural ordering and custom ordering.">
+      <created>1677673997648</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1677673997653</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implement transformations mapping." />
+    <MESSAGE value="Implement transformations mapping with index." />
+    <MESSAGE value="Implement transformations mapping for map." />
+    <MESSAGE value="Implement transformations zipping and transformations unzipping." />
+    <MESSAGE value="Implement grouping." />
+    <MESSAGE value="Implement slice." />
+    <MESSAGE value="Implement partitioning." />
+    <MESSAGE value="Fix package location." />
+    <MESSAGE value="Implement testing." />
+    <MESSAGE value="Implement plus minus operators." />
+    <MESSAGE value="Implement grouping operators." />
+    <MESSAGE value="Implement slicing." />
+    <MESSAGE value="Implement take and drop." />
+    <MESSAGE value="Implement chunked." />
+    <MESSAGE value="Implement windowed." />
+    <MESSAGE value="Rename some classes." />
+    <MESSAGE value="Implement chuncked." />
+    <MESSAGE value="Implement retrieve by condition." />
+    <MESSAGE value="Implement retrieve by position." />
+    <MESSAGE value="Implement retrieve by random." />
+    <MESSAGE value="Implement checking existence." />
+    <MESSAGE value="Rename placement package." />
+    <MESSAGE value="Implement custom ordering." />
+    <MESSAGE value="Implement natural ordering." />
+    <MESSAGE value="Implement natural ordering and custom ordering." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement natural ordering and custom ordering." />
+  </component>
+</project>
