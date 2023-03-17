@@ -4,8 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement random order.">
-      <change afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/operators/AggregateOperator.kt" afterDir="false" />
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement aggregate operator.">
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/learn-kotlin-collection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/classes/kotlin/main/META-INF/kotlincollection.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/kotlincollection10SNAPSHOTjar-classes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +99,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="learn-aggregate-operator" />
-                    <option name="lastUsedInstant" value="1678959772" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1678960080" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1678959743" />
+                    <option name="branchName" value="learn-aggregate-operator" />
+                    <option name="lastUsedInstant" value="1678959772" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-random-order" />
@@ -145,13 +206,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671776224907</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Implement partitioning.">
-      <created>1675081243232</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1675081243232</updated>
     </task>
     <task id="LOCAL-00042" summary="Implement partitioning.">
       <created>1675081257245</created>
@@ -489,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678451013473</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Implement aggregate operator.">
+      <created>1678960065140</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1678960065141</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement transformations mapping for map." />
     <MESSAGE value="Implement transformations zipping and transformations unzipping." />
     <MESSAGE value="Implement grouping." />
     <MESSAGE value="Implement slice." />
@@ -529,6 +589,7 @@
     <MESSAGE value="Implement natural ordering and custom ordering." />
     <MESSAGE value="Implement reverse order." />
     <MESSAGE value="Implement random order." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement random order." />
+    <MESSAGE value="Implement aggregate operator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement aggregate operator." />
   </component>
 </project>
