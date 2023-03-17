@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement natural ordering and custom ordering." />
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement random order.">
+      <change afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/operators/AggregateOperator.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,24 +38,24 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="learn-aggregate-operator" />
+                    <option name="lastUsedInstant" value="1678959772" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1677635815" />
+                    <option name="lastUsedInstant" value="1678959743" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-random-order" />
+                    <option name="lastUsedInstant" value="1678450621" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-reverse-order" />
+                    <option name="lastUsedInstant" value="1678450039" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-ordering-natural" />
                     <option name="lastUsedInstant" value="1677635781" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-ordering-custom" />
-                    <option name="lastUsedInstant" value="1677634582" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-checking-existence" />
-                    <option name="lastUsedInstant" value="1677500348" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-retrieve-by-random" />
-                    <option name="lastUsedInstant" value="1677500039" />
                   </RecentBranch>
                 </list>
               </option>
@@ -89,23 +91,23 @@
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ReverseOrderKt">
-    <configuration name="CustomOrderingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.order.CustomOrderingKt" />
+  <component name="RunManager" selected="Kotlin.AggregateOperatorKt">
+    <configuration name="AggregateOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.AggregateOperatorKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NaturalOrderingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.order.NaturalOrderingKt" />
+    <configuration name="RandomOrderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.order.RandomOrderKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseOrderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.order.ReverseOrderKt" />
+    <configuration name="SliceOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.SliceOperatorKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ReverseOrderKt" />
-        <item itemvalue="Kotlin.CustomOrderingKt" />
-        <item itemvalue="Kotlin.NaturalOrderingKt" />
+        <item itemvalue="Kotlin.AggregateOperatorKt" />
+        <item itemvalue="Kotlin.RandomOrderKt" />
         <item itemvalue="Kotlin.WindowedOperatorKt" />
         <item itemvalue="Kotlin.TakeDropOperatorKt" />
+        <item itemvalue="Kotlin.SliceOperatorKt" />
       </list>
     </recent_temporary>
   </component>
@@ -143,41 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671776224907</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Implement slice.">
-      <created>1674993525348</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1674993525348</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Implement slice.">
-      <created>1674993537146</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1674993537146</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Implement slice.">
-      <created>1674993543130</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1674993543130</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Implement take and drop.">
-      <created>1675035759911</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1675035759912</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Implement take and drop.">
-      <created>1675035778557</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1675035778557</updated>
     </task>
     <task id="LOCAL-00041" summary="Implement partitioning.">
       <created>1675081243232</created>
@@ -487,7 +454,42 @@
       <option name="project" value="LOCAL" />
       <updated>1677673997653</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Implement reverse order.">
+      <created>1678449197087</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1678449197087</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Implement reverse order.">
+      <created>1678449254183</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1678449254183</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Implement reverse order.">
+      <created>1678450145600</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1678450145601</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Implement reverse order.">
+      <created>1678450156605</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1678450156605</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Implement random order.">
+      <created>1678451013472</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1678451013473</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,8 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement transformations mapping." />
-    <MESSAGE value="Implement transformations mapping with index." />
     <MESSAGE value="Implement transformations mapping for map." />
     <MESSAGE value="Implement transformations zipping and transformations unzipping." />
     <MESSAGE value="Implement grouping." />
@@ -527,6 +527,8 @@
     <MESSAGE value="Implement custom ordering." />
     <MESSAGE value="Implement natural ordering." />
     <MESSAGE value="Implement natural ordering and custom ordering." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement natural ordering and custom ordering." />
+    <MESSAGE value="Implement reverse order." />
+    <MESSAGE value="Implement random order." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement random order." />
   </component>
 </project>
