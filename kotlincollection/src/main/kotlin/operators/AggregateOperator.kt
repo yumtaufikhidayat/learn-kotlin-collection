@@ -10,4 +10,5 @@ fun aggregateOperator() {
     println("Minimum number: ${numbers.min()}") // take minimum number
     println("Average number: ${numbers.average()}") // take average number
     println("Sum numbers: ${numbers.sum()}") // take total of sum number
+    println("Sum numbers divided by 2: ${numbers.sumOf { it / 2}}")
 }
