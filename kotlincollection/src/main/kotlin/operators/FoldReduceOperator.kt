@@ -5,17 +5,17 @@ fun main() {
 }
 
 fun foldReduce() {
-    val numbers = (1..5).toList()
+    val numbers = (1..100).toList().shuffled()
     val max = numbers.reduce { first, second ->
         if (first > second) first else second
     }
 
     val min = numbers.reduce { first, second ->
-        if (first < second) second else first
+        if (first < second) first else second
     }
 
-    val sum = numbers.fold(0) { acc, i ->
-        acc + i
+    val sum = numbers.fold(0) { first, second ->
+        first + second
     }
 
     println("Nilai terbesar: $max")
