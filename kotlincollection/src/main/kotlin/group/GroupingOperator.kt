@@ -1,4 +1,4 @@
-package main.kotlin.operators
+package main.kotlin.group
 
 fun main() {
     grouping()
