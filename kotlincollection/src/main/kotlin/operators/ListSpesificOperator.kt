@@ -18,6 +18,7 @@ fun listSpecificOperator() {
 }
 
 fun indexNumber() {
+    println("----- Index Number -----")
     val numbers = listOf(1, 1, 2, 2, 3, 3, 4, 4, 5, 5)
     indexOfNumber(2, numbers)
     indexOfNumber(3, numbers)
