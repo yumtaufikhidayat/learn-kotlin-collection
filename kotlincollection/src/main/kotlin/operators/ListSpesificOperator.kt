@@ -23,10 +23,14 @@ fun indexNumber() {
     indexOfNumber(3, numbers)
     lastIndexOfNumber(3, numbers)
     lastIndexOfNumber(4, numbers)
-    indexOfFirst(3, numbers)
-    indexOfFirst(4, numbers)
-    indexOfLast(3, numbers)
-    indexOfLast(4, numbers)
+    indexOfFirst(3, numbers, ">")
+    indexOfFirst(4, numbers, ">")
+    indexOfFirst(3, numbers, "<")
+    indexOfFirst(4, numbers, "<")
+    indexOfLast(3, numbers, ">")
+    indexOfLast(4, numbers, ">")
+    indexOfLast(3, numbers,"<")
+    indexOfLast(4, numbers,"<")
 }
 
 fun indexOfNumber(number: Int, index: List<Int>) {
@@ -37,10 +41,16 @@ fun lastIndexOfNumber(number: Int, index: List<Int>) {
     println("Angka $number berada pada index ke-${index.lastIndexOf(number)}")
 }
 
-fun indexOfFirst(number: Int, index: List<Int>) {
-    println("Index pertama dari kondisi jika > $number, yaitu ${index.indexOfFirst { it > number }}")
+fun indexOfFirst(number: Int, index: List<Int>, type: String) {
+    when (type) {
+        ">" -> println("Index pertama dari kondisi jika > $number, yaitu ${index.indexOfFirst { it > number }}")
+        else -> println("Index pertama dari kondisi jika < $number, yaitu ${index.indexOfFirst { it < number }}")
+    }
 }
 
-fun indexOfLast(number: Int, index: List<Int>) {
-    println("Index terakhir dari kondisi jika > $number, yaitu ${index.indexOfLast { it > number }}")
+fun indexOfLast(number: Int, index: List<Int>, type: String) {
+    when (type) {
+        ">" -> println("Index terakhir dari kondisi jika > $number, yaitu ${index.indexOfLast { it > number }}")
+        else -> println("Index terakhir dari kondisi jika < $number, yaitu ${index.indexOfLast { it < number }}")
+    }
 }
