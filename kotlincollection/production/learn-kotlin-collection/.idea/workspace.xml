@@ -4,69 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement aggregate operator.">
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/learn-kotlin-collection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/classes/kotlin/main/META-INF/kotlincollection.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/package-parts.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/compileKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/build/kotlin/kotlincollection10SNAPSHOTjar-classes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/production/learn-kotlin-collection/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/production/learn-kotlin-collection/production/learn-kotlin-collection/META-INF/learn-kotlin-collection.kotlin_module" afterDir="false" />
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Move class to package group.">
+      <change afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/group/GroupingInterface.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,24 +38,24 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="learn-grouping-interface" />
+                    <option name="lastUsedInstant" value="1679794547" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1678960080" />
+                    <option name="lastUsedInstant" value="1679316478" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-fold-reduce" />
+                    <option name="lastUsedInstant" value="1679315913" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-aggregate-operator" />
-                    <option name="lastUsedInstant" value="1678959772" />
+                    <option name="lastUsedInstant" value="1679314125" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-random-order" />
                     <option name="lastUsedInstant" value="1678450621" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-reverse-order" />
-                    <option name="lastUsedInstant" value="1678450039" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-ordering-natural" />
-                    <option name="lastUsedInstant" value="1677635781" />
                   </RecentBranch>
                 </list>
               </option>
@@ -148,13 +87,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/group" />
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/operators" />
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AggregateOperatorKt">
-    <configuration name="AggregateOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.AggregateOperatorKt" />
+  <component name="RunManager" selected="Kotlin.GroupingInterfaceKt">
+    <configuration name="FoldReduceOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.FoldReduceOperatorKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupingInterfaceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.group.GroupingInterfaceKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,13 +109,6 @@
     </configuration>
     <configuration name="RandomOrderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.kotlin.order.RandomOrderKt" />
-      <module name="learn-kotlin-collection" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SliceOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.SliceOperatorKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.AggregateOperatorKt" />
-        <item itemvalue="Kotlin.RandomOrderKt" />
+        <item itemvalue="Kotlin.GroupingInterfaceKt" />
+        <item itemvalue="Kotlin.FoldReduceOperatorKt" />
         <item itemvalue="Kotlin.WindowedOperatorKt" />
         <item itemvalue="Kotlin.TakeDropOperatorKt" />
-        <item itemvalue="Kotlin.SliceOperatorKt" />
+        <item itemvalue="Kotlin.RandomOrderKt" />
       </list>
     </recent_temporary>
   </component>
@@ -206,69 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671776224907</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Implement partitioning.">
-      <created>1675081257245</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1675081257245</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Fix package location.">
-      <created>1675082255094</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1675082255094</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Implement testing.">
-      <created>1675083055109</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1675083055109</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Implement testing.">
-      <created>1675083072659</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1675083072659</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Implement testing.">
-      <created>1675083409761</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1675083409761</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Implement testing.">
-      <created>1675083446512</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1675083446512</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Implement plus minus operators.">
-      <created>1675254014807</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1675254014807</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Implement plus minus operators.">
-      <created>1675254049949</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1675254049949</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Implement grouping operators.">
-      <created>1675256020172</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1675256020185</updated>
     </task>
     <task id="LOCAL-00051" summary="Implement grouping operators.">
       <created>1675256032243</created>
@@ -550,7 +427,70 @@
       <option name="project" value="LOCAL" />
       <updated>1678960065141</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Update project.">
+      <created>1679012925487</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1679012925488</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Update project.">
+      <created>1679012956426</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1679012956426</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Implement fold &amp; reduce">
+      <created>1679314114311</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1679314114312</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Update aggregate operator.">
+      <created>1679315106447</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1679315106447</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Update aggregate operator.">
+      <created>1679315178531</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1679315178531</updated>
+    </task>
+    <task id="LOCAL-00096" summary="Implement fold and reduce.">
+      <created>1679316130475</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1679316130475</updated>
+    </task>
+    <task id="LOCAL-00097" summary="Implement fold and reduce.">
+      <created>1679316467804</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1679316467805</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Fix conflicts.">
+      <created>1679316513470</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1679316513470</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Move class to package group.">
+      <created>1679794605288</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1679794605288</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -565,12 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement transformations zipping and transformations unzipping." />
-    <MESSAGE value="Implement grouping." />
-    <MESSAGE value="Implement slice." />
-    <MESSAGE value="Implement partitioning." />
-    <MESSAGE value="Fix package location." />
-    <MESSAGE value="Implement testing." />
     <MESSAGE value="Implement plus minus operators." />
     <MESSAGE value="Implement grouping operators." />
     <MESSAGE value="Implement slicing." />
@@ -590,6 +524,12 @@
     <MESSAGE value="Implement reverse order." />
     <MESSAGE value="Implement random order." />
     <MESSAGE value="Implement aggregate operator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement aggregate operator." />
+    <MESSAGE value="Update project." />
+    <MESSAGE value="Implement fold &amp; reduce" />
+    <MESSAGE value="Update aggregate operator." />
+    <MESSAGE value="Implement fold and reduce." />
+    <MESSAGE value="Fix conflicts." />
+    <MESSAGE value="Move class to package group." />
+    <option name="LAST_COMMIT_MESSAGE" value="Move class to package group." />
   </component>
 </project>
