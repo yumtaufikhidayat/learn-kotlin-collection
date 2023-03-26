@@ -2,6 +2,7 @@ package main.kotlin.operators
 
 fun main() {
     listSpecificOperator()
+    indexNumber()
 }
 
 fun listSpecificOperator() {
@@ -14,4 +15,32 @@ fun listSpecificOperator() {
 
     val sortedList = list.sorted() // Element diurutkan berdasarkan abjad
     println("Sorted list: ${sortedList.binarySearch("Hidayat")}") // 0 -> karena setelah diurutkan secara abjadi, Hidayat berada di element ke-0
+}
+
+fun indexNumber() {
+    val numbers = listOf(1, 1, 2, 2, 3, 3, 4, 4, 5, 5)
+    indexOfNumber(2, numbers)
+    indexOfNumber(3, numbers)
+    lastIndexOfNumber(3, numbers)
+    lastIndexOfNumber(4, numbers)
+    indexOfFirst(3, numbers)
+    indexOfFirst(4, numbers)
+    indexOfLast(3, numbers)
+    indexOfLast(4, numbers)
+}
+
+fun indexOfNumber(number: Int, index: List<Int>) {
+    println("Angka $number berada pada index ke-${index.indexOf(number)}")
+}
+
+fun lastIndexOfNumber(number: Int, index: List<Int>) {
+    println("Angka $number berada pada index ke-${index.lastIndexOf(number)}")
+}
+
+fun indexOfFirst(number: Int, index: List<Int>) {
+    println("Index pertama dari kondisi jika > $number, yaitu ${index.indexOfFirst { it > number }}")
+}
+
+fun indexOfLast(number: Int, index: List<Int>) {
+    println("Index terakhir dari kondisi jika > $number, yaitu ${index.indexOfLast { it > number }}")
 }
