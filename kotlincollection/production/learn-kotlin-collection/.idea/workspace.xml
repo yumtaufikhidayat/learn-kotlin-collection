@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Move class to package group.">
-      <change afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/group/GroupingInterface.kt" afterDir="false" />
-    </list>
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement list specific operator: add title for divider." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -38,12 +36,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="learn-grouping-interface" />
-                    <option name="lastUsedInstant" value="1679794547" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1679798577" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1679316478" />
+                    <option name="branchName" value="learn-list-spesific-operator" />
+                    <option name="lastUsedInstant" value="1679796785" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-grouping-interface" />
+                    <option name="lastUsedInstant" value="1679794547" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-fold-reduce" />
@@ -52,10 +54,6 @@
                   <RecentBranch>
                     <option name="branchName" value="learn-aggregate-operator" />
                     <option name="lastUsedInstant" value="1679314125" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-random-order" />
-                    <option name="lastUsedInstant" value="1678450621" />
                   </RecentBranch>
                 </list>
               </option>
@@ -92,7 +90,7 @@
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.GroupingInterfaceKt">
+  <component name="RunManager" selected="Kotlin.SetSpecificOperatorKt">
     <configuration name="FoldReduceOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.FoldReduceOperatorKt" />
       <module name="learn-kotlin-collection" />
@@ -107,15 +105,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomOrderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.order.RandomOrderKt" />
+    <configuration name="ListSpesificOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.ListSpesificOperatorKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakeDropOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.TakeDropOperatorKt" />
+    <configuration name="SetSpecificOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.SetSpecificOperatorKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SetSpecificOperatorKt" />
+        <item itemvalue="Kotlin.ListSpesificOperatorKt" />
         <item itemvalue="Kotlin.GroupingInterfaceKt" />
         <item itemvalue="Kotlin.FoldReduceOperatorKt" />
         <item itemvalue="Kotlin.WindowedOperatorKt" />
-        <item itemvalue="Kotlin.TakeDropOperatorKt" />
-        <item itemvalue="Kotlin.RandomOrderKt" />
       </list>
     </recent_temporary>
   </component>
@@ -146,41 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671776224907</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Implement grouping operators.">
-      <created>1675256032243</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1675256032245</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Implement slicing.">
-      <created>1676030943741</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1676030943743</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Implement take and drop.">
-      <created>1676032598326</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1676032598326</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Implement chunked.">
-      <created>1676069885943</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1676069885943</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Implement chunked.">
-      <created>1676069918365</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1676069918365</updated>
     </task>
     <task id="LOCAL-00056" summary="Implement windowed.">
       <created>1676070494454</created>
@@ -490,7 +453,42 @@
       <option name="project" value="LOCAL" />
       <updated>1679794605288</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Implement grouping interface.">
+      <created>1679796509287</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1679796509287</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Implement list specific operator.">
+      <created>1679797530250</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1679797530250</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Implement list specific operator: index number.">
+      <created>1679798465836</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1679798465836</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Implement list specific operator: add type.">
+      <created>1679798873320</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1679798873320</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Implement list specific operator: add title for divider.">
+      <created>1679798932582</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1679798932582</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,11 +503,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement plus minus operators." />
-    <MESSAGE value="Implement grouping operators." />
-    <MESSAGE value="Implement slicing." />
-    <MESSAGE value="Implement take and drop." />
-    <MESSAGE value="Implement chunked." />
     <MESSAGE value="Implement windowed." />
     <MESSAGE value="Rename some classes." />
     <MESSAGE value="Implement chuncked." />
@@ -530,6 +523,11 @@
     <MESSAGE value="Implement fold and reduce." />
     <MESSAGE value="Fix conflicts." />
     <MESSAGE value="Move class to package group." />
-    <option name="LAST_COMMIT_MESSAGE" value="Move class to package group." />
+    <MESSAGE value="Implement grouping interface." />
+    <MESSAGE value="Implement list specific operator." />
+    <MESSAGE value="Implement list specific operator: index number." />
+    <MESSAGE value="Implement list specific operator: add type." />
+    <MESSAGE value="Implement list specific operator: add title for divider." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement list specific operator: add title for divider." />
   </component>
 </project>
