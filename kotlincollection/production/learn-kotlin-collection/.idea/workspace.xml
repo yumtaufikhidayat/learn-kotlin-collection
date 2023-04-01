@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement list specific operator: add title for divider." />
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement set specific operator.">
+      <change beforePath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/operators/SetSpecificOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/operators/SetSpecificOperator.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="learn-set-specific-operator" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +39,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1679798577" />
+                    <option name="lastUsedInstant" value="1680178745" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-set-specific-operator" />
+                    <option name="lastUsedInstant" value="1680178461" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-list-spesific-operator" />
@@ -50,10 +56,6 @@
                   <RecentBranch>
                     <option name="branchName" value="learn-fold-reduce" />
                     <option name="lastUsedInstant" value="1679315913" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-aggregate-operator" />
-                    <option name="lastUsedInstant" value="1679314125" />
                   </RecentBranch>
                 </list>
               </option>
@@ -91,13 +93,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.SetSpecificOperatorKt">
-    <configuration name="FoldReduceOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.FoldReduceOperatorKt" />
-      <module name="learn-kotlin-collection" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GroupingInterfaceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.kotlin.group.GroupingInterfaceKt" />
       <module name="learn-kotlin-collection" />
@@ -119,6 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TakeDropOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.TakeDropOperatorKt" />
+      <module name="learn-kotlin-collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WindowedOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.WindowedOperatorKt" />
       <module name="learn-kotlin-collection" />
@@ -129,10 +131,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.SetSpecificOperatorKt" />
+        <item itemvalue="Kotlin.WindowedOperatorKt" />
+        <item itemvalue="Kotlin.TakeDropOperatorKt" />
         <item itemvalue="Kotlin.ListSpesificOperatorKt" />
         <item itemvalue="Kotlin.GroupingInterfaceKt" />
-        <item itemvalue="Kotlin.FoldReduceOperatorKt" />
-        <item itemvalue="Kotlin.WindowedOperatorKt" />
       </list>
     </recent_temporary>
   </component>
@@ -144,20 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671776224907</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Implement windowed.">
-      <created>1676070494454</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1676070494454</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Rename some classes.">
-      <created>1676070565546</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1676070565546</updated>
     </task>
     <task id="LOCAL-00058" summary="Implement chuncked.">
       <created>1676078925471</created>
@@ -488,7 +476,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679798932582</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Implement set specific operator.">
+      <created>1680178735966</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1680178735967</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Implement set specific operator.">
+      <created>1680178775392</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1680178775392</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement windowed." />
     <MESSAGE value="Rename some classes." />
     <MESSAGE value="Implement chuncked." />
     <MESSAGE value="Implement retrieve by condition." />
@@ -528,6 +529,7 @@
     <MESSAGE value="Implement list specific operator: index number." />
     <MESSAGE value="Implement list specific operator: add type." />
     <MESSAGE value="Implement list specific operator: add title for divider." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement list specific operator: add title for divider." />
+    <MESSAGE value="Implement set specific operator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement set specific operator." />
   </component>
 </project>
