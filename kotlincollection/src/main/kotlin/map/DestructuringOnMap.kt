@@ -15,9 +15,6 @@ fun destructuringOnMap() {
     for ((key, value) in map) {
         println("$key, $value")
     }
-
     map.forEach { (key, value) -> println("$key, $value") }
-    map.forEach { entry ->
-        println("${entry.component1()}: ${entry.component2()}")
-    }
+    map.forEach { entry -> println("${entry.component1()}, ${entry.component2()}") }
 }
