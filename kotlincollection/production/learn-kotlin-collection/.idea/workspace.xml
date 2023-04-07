@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Implement set specific operator.">
-      <change beforePath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/operators/SetSpecificOperator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/operators/SetSpecificOperator.kt" afterDir="false" />
+    <list default="true" id="40b115c0-692d-4934-8fb1-e4348d0d56e0" name="Changes" comment="Update project.">
+      <change afterPath="$PROJECT_DIR$/kotlincollection/src/main/kotlin/sequence/Sequence.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="learn-set-specific-operator" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,8 +38,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="learn-sequence" />
+                    <option name="lastUsedInstant" value="1680827482" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1680178745" />
+                    <option name="lastUsedInstant" value="1680332750" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="learn-map-spesific-operator" />
+                    <option name="lastUsedInstant" value="1680332261" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="learn-set-specific-operator" />
@@ -48,14 +56,6 @@
                   <RecentBranch>
                     <option name="branchName" value="learn-list-spesific-operator" />
                     <option name="lastUsedInstant" value="1679796785" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-grouping-interface" />
-                    <option name="lastUsedInstant" value="1679794547" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="learn-fold-reduce" />
-                    <option name="lastUsedInstant" value="1679315913" />
                   </RecentBranch>
                 </list>
               </option>
@@ -92,16 +92,16 @@
       <recent name="$PROJECT_DIR$/kotlincollection/src/main/kotlin/collection" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SetSpecificOperatorKt">
-    <configuration name="GroupingInterfaceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.group.GroupingInterfaceKt" />
+  <component name="RunManager" selected="Kotlin.SequenceKt">
+    <configuration name="ListSpesificOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.ListSpesificOperatorKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListSpesificOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.kotlin.operators.ListSpesificOperatorKt" />
+    <configuration name="SequenceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.kotlin.sequence.SequenceKt" />
       <module name="learn-kotlin-collection" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.SetSpecificOperatorKt" />
+        <item itemvalue="Kotlin.SequenceKt" />
         <item itemvalue="Kotlin.WindowedOperatorKt" />
         <item itemvalue="Kotlin.TakeDropOperatorKt" />
+        <item itemvalue="Kotlin.SetSpecificOperatorKt" />
         <item itemvalue="Kotlin.ListSpesificOperatorKt" />
-        <item itemvalue="Kotlin.GroupingInterfaceKt" />
       </list>
     </recent_temporary>
   </component>
@@ -146,41 +146,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671776224907</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Implement chuncked.">
-      <created>1676078925471</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1676078925471</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Implement retrieve by position.">
-      <created>1676198594864</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1676198594864</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Implement retrieve by position.">
-      <created>1676198598718</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1676198598718</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Implement retrieve by position.">
-      <created>1676198798165</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1676198798165</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Implement retrieve by position.">
-      <created>1676550204877</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1676550204879</updated>
     </task>
     <task id="LOCAL-00063" summary="Implement retrieve by condition.">
       <created>1676552452063</created>
@@ -490,7 +455,42 @@
       <option name="project" value="LOCAL" />
       <updated>1680178775392</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Implement set specific operator.">
+      <created>1680331642677</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1680331642678</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Implement set specific operator.">
+      <created>1680331657331</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1680331657331</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Implement set specific operator.">
+      <created>1680331700113</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1680331700113</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Implement map specific operator.">
+      <created>1680332675933</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1680332675933</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Update project.">
+      <created>1680826914811</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1680826914813</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -505,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Rename some classes." />
     <MESSAGE value="Implement chuncked." />
     <MESSAGE value="Implement retrieve by condition." />
     <MESSAGE value="Implement retrieve by position." />
@@ -518,7 +517,6 @@
     <MESSAGE value="Implement reverse order." />
     <MESSAGE value="Implement random order." />
     <MESSAGE value="Implement aggregate operator." />
-    <MESSAGE value="Update project." />
     <MESSAGE value="Implement fold &amp; reduce" />
     <MESSAGE value="Update aggregate operator." />
     <MESSAGE value="Implement fold and reduce." />
@@ -530,6 +528,8 @@
     <MESSAGE value="Implement list specific operator: add type." />
     <MESSAGE value="Implement list specific operator: add title for divider." />
     <MESSAGE value="Implement set specific operator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement set specific operator." />
+    <MESSAGE value="Implement map specific operator." />
+    <MESSAGE value="Update project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update project." />
   </component>
 </project>
